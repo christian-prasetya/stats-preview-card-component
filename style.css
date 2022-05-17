@@ -60,13 +60,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .heading {
   width: 570px;
   height: 446px;
-  padding: 0 72px;
-  overflow: hidden;
 }
 
 .stats-card {
