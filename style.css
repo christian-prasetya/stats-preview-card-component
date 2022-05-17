@@ -48,6 +48,14 @@ body {
   text-transform: uppercase;
 }
 
+.accent {
+  color: var(--color-accent);
+}
+
+.stats-desc {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
 /* Page Main Styling */
 #stats-preview-card {
   background-color: var(--color-cardbg);
@@ -69,8 +77,31 @@ body {
   height: 446px;
 }
 
+.heading-description {
+  padding: 3rem 8rem 2rem 4rem;
+  margin: auto;
+}
+
+.heading-description h1 {
+  color: var(--color-main-heading);
+}
+
 .stats-card {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 4rem ;
+  gap: 6rem;
+}
+
+.stats-card h2 {
+  margin-bottom: 0.5rem;
+  color: var(--color-main-heading);
+}
+
+.stats-card p {
+  margin: 0;
+  color: var(--color-stats-heading);
 }
 
 .img-header {
@@ -87,7 +118,6 @@ body {
 .img-mobile {
   display: none;
 }
-
 
 
 /* Footer Section */
