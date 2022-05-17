@@ -38,6 +38,14 @@ body {
   font-size: 1.6rem;
 }
 
+.text-xs {
+  font-size: 0.8rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 /* Page Main Styling */
 
 
