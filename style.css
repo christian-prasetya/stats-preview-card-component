@@ -13,6 +13,8 @@
 
 html {
   font-size: 15px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -47,6 +49,44 @@ body {
 }
 
 /* Page Main Styling */
+#stats-preview-card {
+  background-color: var(--color-cardbg);
+  width: 1110px;
+  height: 446px;
+  margin: 177px auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  width: 570px;
+  height: 446px;
+  padding: 0 72px;
+  overflow: hidden;
+}
+
+.stats-card {
+  display: flex;
+}
+
+.img-header {
+  width: 540px;
+  height: 446px;
+}
+
+.img-header img {
+  width: 540px;
+  height: 446px;
+  object-fit: cover;
+}
+
+.img-mobile {
+  display: none;
+}
 
 
 
