@@ -1,0 +1,38 @@
+:root {
+  /* Primary Color */
+  --color-mainbg: hsl(233, 47%, 7%);
+  --color-cardbg: hsl(244, 28%, 16%);
+  --color-accent: hsl(277, 64%, 61%);
+
+  /* Neutral Color */
+  --color-main-heading: hsl(0, 0%, 100%);
+  --color-stats: hsl(0, 0%, 100%);
+  --color-paragraph: hsla(0, 0%, 100%, 0.75);
+  --color-stats-heading: hsla(0, 0%, 100%, 0.6);
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-mainbg);
+  color: var(--color-paragraph);
+  font-weight: 400;
+}
+
+
+
+/* Footer Section */
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+    
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
