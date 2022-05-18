@@ -23,7 +23,7 @@ body {
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   background-color: var(--color-mainbg);
-  color: var(--color-paragraph);
+  color: var(--color-stats-heading);
   font-weight: 400;
 }
 
@@ -59,7 +59,6 @@ body {
 
 /* Page Main Styling */
 .container {
-  max-width: 80rem;
   width: 1000px;
   height: 400px;
   background-color: var(--color-cardbg);
@@ -79,6 +78,10 @@ body {
   padding: 1rem 4rem 0 4rem;
 }
 
+.stats-desc__heading h1 {
+  color: var(--color-main-heading);
+}
+
 .stats-desc__card {
   display: flex;
   align-items: center;
@@ -88,6 +91,7 @@ body {
 
 .card-title {
   margin-bottom: 0;
+  color: var(--color-main-heading);
 }
 
 .stats-image {
