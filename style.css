@@ -54,10 +54,50 @@ body {
 
 .stats-desc {
   font-family: 'Lexend Deca', sans-serif;
+  margin: 0;
 }
 
 /* Page Main Styling */
+.container {
+  max-width: 80rem;
+  width: 1000px;
+  height: 400px;
+  background-color: var(--color-cardbg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  margin: 12rem auto;
+}
 
+.stats-desc {
+  width: 50%;
+  height: 400px;
+}
+
+.stats-image {
+  width: 50%;
+  height: 400px;
+}
+
+.overlay {
+  background-color: var(--color-accent);
+  width: 100%;
+  height: 400px;
+}
+
+.stats-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+
+
+.image-mobile {
+  display: none;
+}
 
 
 /* Footer Section */
